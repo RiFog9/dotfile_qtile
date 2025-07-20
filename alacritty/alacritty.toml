@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ~/.config/alacritty/alacritty.toml
 
 [env]
@@ -10,11 +11,32 @@ startup_mode = "Windowed"
 decorations = "Full"
 
 [font]
+=======
+# alacritty.toml - Default config with JetBrains Mono Nerd Font
+
+[env]
+# Example: TERM variable
+TERM = "xterm-256color"
+
+[window]
+# Window dimensions (optional, in character columns/rows)
+dimensions = { columns = 120, lines = 30 }
+# Window startup position (optional)
+position = { x = 100, y = 100 }
+# Whether window starts maximized
+startup_mode = "Windowed"
+# Enable/disable window decorations (borders, titlebar)
+decorations = "Full"
+
+[font]
+# Primary font
+>>>>>>> 88aa7f70dffa60f4497f1f627fd714e306a4e8b4
 normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
 bold = { family = "JetBrains Mono Nerd Font", style = "Bold" }
 italic = { family = "JetBrains Mono Nerd Font", style = "Italic" }
 bold_italic = { family = "JetBrains Mono Nerd Font", style = "Bold Italic" }
 
+<<<<<<< HEAD
 size = 9.0
 offset = { x = 0, y = 1 }
 
@@ -43,6 +65,23 @@ cyan    = "#94e2d5"
 white   = "#a6adc8"
 
 [scrolling]
+=======
+# Font size in points
+size = 9.0
+
+# Glyph offset (tweak if characters feel misaligned)
+offset = { x = 0, y = 0 }
+
+# Line spacing
+#line_height = 1.0
+
+[colors]
+# Example color scheme (optional)
+primary = { background = "#1e1e2e", foreground = "#cdd6f4" }
+
+[scrolling]
+# Number of lines in the scrollback buffer
+>>>>>>> 88aa7f70dffa60f4497f1f627fd714e306a4e8b4
 history = 10000
 multiplier = 3
 
